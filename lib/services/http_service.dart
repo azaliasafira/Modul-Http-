@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:html';
 
 import 'package:http/http.dart' as http;
+import 'package:list_movie/models/movie.dart';
 
 class HttpService {
   final String apiKey = '7745248cce48c5838123bc077c473543';
